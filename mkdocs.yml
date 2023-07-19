@@ -1,9 +1,8 @@
-site_name: Install Apache Kafka with Docker or Helm
-# site_url: 'https://github.com/sir5kong/kafka-docker'
+site_name:  A golang ebook intro how to build a web with golang 
 
 ## Repository
-repo_name: 'sir5kong/kafka-docker'
-repo_url: 'https://github.com/sir5kong/kafka-docker'
+repo_name: 'itboon/golang-web-dev'
+repo_url: 'https://github.com/itboon/golang-web-dev'
 
 docs_dir: zh
 
@@ -76,7 +75,8 @@ plugins:
 
 # Page tree
 nav:
-  - Book:
+  - '简体中文':
+    - '目录': index.md
     - '1 GO环境配置': 01.0.md
     - '1.1安装 Go': 01.1.md
     - '1.2 Go Module, GOPATH 与工作空间': 01.2.md
